@@ -13,15 +13,21 @@
   <body>
     <header class="header">
       <nav>
-        <p class="logo">AS Hotel</p>
+        <div class="nav_bar">
+           <p class="logo">AS Hotel</p>
+           <div class="nav_menu_btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+           </div>
+        </div>
+        
 
-        <ul class="nav_links">
+        <ul class="nav_links" id="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#service">Service</a></li>
           <li><a href="#explore">Explore</a></li>
         </ul>
-        <button class="btn">Book Now</button>
+        <button class="btn nav_btn">Book Now</button>
       </nav>
       <div class="hero-container">
         <h1>
@@ -39,9 +45,9 @@
     <section class="about-container">
       <div class="section-content">
          <h2 class="main_text">About Us</h2>
-          <p class="paragraph">At AS Hotel we are more than a hosptiality platform, we're <br>
-            your champion in every journey. From quick  <br>
-            getaway  to  dream adventures we make comfort <br> simple and memorable   </p>
+          <p class="paragraph">At AS Hotel we are more than a hosptiality platform, we're 
+            your champion in every journey. From quick  
+            getaway  to  dream adventures we make comfort  simple and memorable.   </p>
 
             <div class="rating">
               <div class="number">
@@ -149,18 +155,19 @@
     </section>
 
     <footer>
-      <div class="subscribe">
-        <h4 class="sub_text">Subscribe to  Our <br>
-        News Letter</h4>
+      <div class="footer_container">
+        <div class="subscribe">
+            <h4 class="sub_text">Subscribe to  Our <br>
+           News Letter</h4>
 
-        <div class="input-field">
+             <div class="input-field">
           
-          <input type="email" placeholder="Email Address" class="custom-input" >
-          <button type="submit" class="subscribe-btn">Subscribe</button>
-        </div>
+              <input type="email" placeholder="enter email address" class="custom-input" >
+              <button type="submit" class="subscribe-btn">Subscribe</button>
+            </div>
         
-      </div>
-      <hr>
+        </div>
+      <!-- <hr> -->
 
       <div class="questionnaire">
         <div class="same_set">
@@ -210,7 +217,12 @@
         </div>
        </div>
 
-       <p class="copyright">© 2026 AS Hotel. All rights reserved</p>
+       
+      </div>
+      <p class="copyright">© 2026 AS Hotel. All rights reserved</p>
     </footer>
+
+
+    <script src="./main.js"></script>
   </body>
 </html>
