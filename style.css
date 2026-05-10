@@ -238,8 +238,8 @@ main .hero-container {
 }
 .service_image img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 250px;
+  object-fit: cover;
 }
 
 .service_contents {
@@ -281,7 +281,7 @@ main .hero-container {
 }
 
 .explore_image img {
-  max-width: 370px;
+  max-width: 100%;
 }
 .right-part {
   max-width: auto;
@@ -484,20 +484,17 @@ footer {
   .nav_links {
     display: flex;
     flex-direction: row;
-    list-style: none;
     gap: 4rem;
     font-size: 1rem;
   }
   .nav_links a {
     text-decoration: none;
-    color: var(--white);
   }
   main .hero-container {
     height: 100vh;
   }
   .hero-container h1 {
     font-size: 2.8rem;
-    font-weight: 700;
     margin-top: 8rem;
     line-height: 2.8rem;
   }
@@ -507,21 +504,7 @@ footer {
     margin-top: 1.2rem;
     line-height: 1.5rem;
   }
-  .btn {
-    padding: 0.75rem 1.5rem;
-    outline: none;
-    border: none;
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--white);
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  .btn:hover {
-    background-color: var(--primary-color-dark);
-  }
+
   .number:nth-child(2),
   .number:nth-child(4) {
     border-right: 2px solid #cfcfcf;
@@ -551,7 +534,7 @@ footer {
   }
 
   .explore_image img {
-    max-width: 660px;
+    max-width: 100%;
   }
   .right-part {
     max-width: auto;
@@ -574,12 +557,8 @@ footer {
   .subscribe {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    color: var(--white);
-    padding: 2rem 0;
-    gap: 2rem;
   }
 }
 
@@ -652,10 +631,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     gap: 4rem;
   }
-
   .explore_image img {
     max-width: 50%;
   }
@@ -670,11 +647,8 @@ footer {
   .subscribe {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    color: var(--white);
-    padding: 2rem 0;
     gap: 2rem;
   }
   .sub_text {
