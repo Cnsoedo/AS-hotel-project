@@ -603,16 +603,16 @@ footer {
     height: 100vh;
   }
   .hero-container h1 {
-    font-size: 3rem;
+    font-size: 64px;
     font-weight: 700;
     margin-top: 8rem;
-    line-height: 2.8rem;
+    line-height: 1.2;
   }
 
   .hero-container p {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-top: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .desktop_nav {
     display: flex;
@@ -672,6 +672,11 @@ footer {
   .rating {
     margin: 0 10rem;
   }
+  .btn{
+
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
   /* ------FOOTER -------- */
   .subscribe {
     display: flex;
@@ -679,6 +684,10 @@ footer {
     align-items: center;
     margin-bottom: 2rem;
     gap: 2rem;
+  }
+  .subscribe-btn{
+    font-size: 1.1rem;
+    font-weight: 600;
   }
   .sub_text {
     font-size: 1.8rem;
